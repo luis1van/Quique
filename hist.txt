@@ -1,0 +1,534 @@
+    1  nano\
+    2  nano
+    3  lds
+    4  ls
+    5  ls -a
+    6  psql
+    7  vpm
+    8  vpn
+    9  ver
+   10  version
+   11  ?
+   12  /?
+   13  lsb_release
+   14  lsb_release =a
+   15  lsb_release -a
+   16  ls -a
+   17  ls ..
+   18  ls ../..
+   19  ls ../../..
+   20  ls ../.. -a
+   21  ls ../../.. -a
+   22  exit
+   23  cd
+   24  pwd
+   25  ls -a
+   26  ls
+   27  ssh rumad.uprm.edu
+   28  pwd
+   29  ssh estudiante@rumad.uprm.edu
+   30  sudo nano ~/.ssh/config
+   31  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 estudiante@rumad.uprm.edu 
+   32  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1  estudiante@rumad.uprm.edu 
+   33  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss estudiante@rumad.uprm.edu 
+   34  quir
+   35  quit
+   36  exit
+   37  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss estudiante@rumad.uprm.edu 
+   38  exit
+   39  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss estudiante@rumad.uprm.edu 
+   40  exit
+   41  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss estudiante@rumad.uprm.edu 
+   42  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss horario@rumad.uprm.edu 
+   43  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss estudiante@rumad.uprm.edu 
+   44  exit
+   45  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss estudiante@rumad.uprm.edu 
+   46  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss horario@rumad.uprm.edu 
+   47  pwd
+   48  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss horario@rumad.uprm.edu 
+   49  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss estudiante@rumad.uprm.edu 
+   50  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss estudiante@rumad.uprm.edu .
+   51  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss estudiante@rumad.uprm.edu
+   52  sudo apt-get install tomcat7
+   53  sudo apt-get update
+   54  sudo apt-get install tomcat7
+   55  sudo apt-get install tomcat7-admin
+   56  sudo apt-get install tomcat7-docs
+   57  sudo apt-get install tomcat7-examples
+   58  sudo /etc/init.d/tomcat7 restart
+   59  sudo /etc/init.d/tomcat7 stop
+   60  sudo /etc/init.d/tomcat7 restart
+   61  sudo /etc/init.d/tomcat7 stop
+   62  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss estudiante@rumad.uprm.edu
+   63  lsusb
+   64  fdisk -l\
+   65  fdisk -l
+   66  sudo fdisk -l
+   67  udevadm
+   68  lsusb
+   69  lsusb -h
+   70  exit
+   71  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss estudiante@rumad.uprm.edu
+   72  exit
+   73  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss estudiante@rumad.uprm.edu
+   74  ps
+   75  ps -a
+   76  cd /mnt/c
+   77  cd Users/Documents
+   78  cd Users/
+   79  cd Enrique\ Torres/
+   80  cd Documents/
+   81  ls
+   82  cd y-cruncher\ v0.7.6.9483-static/
+   83  ls
+   84  nano Read\ Me.txt 
+   85  cd ..
+   86  scp -r y-cruncher\ v0.7.6.9483-static/ cc@192.5.87.190:~/
+   87  cd ~
+   88  scp -r /mnt/c/Users/Enrique Torres/Documents/y-cruncher\ v0.7.6.9483-static/ cc@192.5.87.190:~/
+   89  scp -vvv -P 44 -r /mnt/c/Users/Enrique Torres/Documents/y-cruncher\ v0.7.6.9483-static/ cc@192.5.87.190:~/
+   90  scp -vvv -r /mnt/c/Users/Enrique Torres/Documents/y-cruncher\ v0.7.6.9483-static/ cc@192.5.87.190:~/
+   91  ls
+   92  ls -a
+   93  pwd
+   94  mount c:
+   95  mount c
+   96  cd ..
+   97  ls
+   98  cd enriquetorres/
+   99  ls
+  100  cd /mnt
+  101  ls
+  102  cd c
+  103  ls
+  104  cd Users/
+  105  cd Enrique\ Torres/
+  106  cd Downloads/
+  107  cp ejtrchameleonkey.pem ~/
+  108  cd ~
+  109  ls
+  110  chmod 600 ejtrchameleonkey.pem 
+  111  ssh-add ejtrchameleonkey.pem 
+  112  ssh-add ejtrchameleonkey.pem
+  113  eval "$(ssh-agent)"
+  114  ssh-add ejtrchameleonkey.pem
+  115  ssh cc@192.5.87.190
+  116  ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss estudiante@rumad.uprm.edu
+  117  ssh cc@192.5.87.190
+  118  sudo nano .ssh/known_hosts
+  119  ssh cc@192.5.87.190
+  120  sudo nano .ssh/known_hosts
+  121  ssh cc@192.5.87.190
+  122  open
+  123  ssh cc@192.5.87.190
+  124  cd /
+  125  find . -name \*.pem -print
+  126  find . -name \ejtrchameleonkey.pem -print
+  127  exit
+  128  sudo nano .ssh/known_hosts
+  129  cd mnt
+  130  cd /mnt
+  131  ls
+  132  cd c
+  133  ls
+  134  cd Users
+  135  cd Enrique\ Torres/
+  136  ls
+  137  cd Documents/
+  138  cd ICOM6025/
+  139  ks
+  140  ls
+  141  cd Asig1
+  142  ls
+  143  ?tar
+  144  tar --help
+  145  tar -cvf package.tar /Package
+  146  tar -cvf package.tar /Package/
+  147  tar -cvf package.tar ./Package/
+  148  ls
+  149  clear
+  150  scp
+  151  ssh cc@192.5.87.190
+  152  ssh-add ejtrchameleonkey.pem
+  153  eval `ssh-agent -s
+  154  '
+  155  eval `ssh-agent -s`
+  156  ssh-add ejtrchameleonkey.pem
+  157  ssh-add ../../ejtrchameleonkey.pem
+  158  ssh-add ../../../Downloads/ejtrchameleonkey.pem
+  159  nano ~/.ssh/id_rsa
+  160  sudo ssh-add ../../../Downloads/ejtrchameleonkey.pem
+  161  ssh-add ../../../Downloads/ejtrchameleonkey.pem
+  162  sudo ssh-add ../../../Downloads/ejtrchameleonkey.pem
+  163  ssh cc@192.5.87.190
+  164  sudo bash
+  165  sudo ssh-add ~/ejtrchameleonkey.pem
+  166  ssh-add ~/ejtrchameleonkey.pem
+  167  ssh cc@192.5.87.190
+  168  ssh package.tar cc@192.5.87.190:/home/cc
+  169  ssh /package.tar cc@192.5.87.190:/home/cc
+  170  scp package.tar cc@192.5.87.190:/home/cc
+  171  ssh cc@192.5.87.190
+  172  scp . cc@192.5.87.190:/home/cc/packageret.tar
+  173  ls
+  174  scp ./ cc@192.5.87.190:/home/cc/packageret.tar
+  175  scp cc@192.5.87.190:/home/cc/packageret.tar .
+  176  scp cc@192.5.87.190:/home/cc/packageret.tar.gz .
+  177  pwd
+  178  ls
+  179  sudo nano .ssh/known_hosts
+  180  sudo nano ~/.ssh/known_hosts
+  181  ifconfig
+  182  exit
+  183  pwd
+  184  ls
+  185  exit
+  186  update
+  187  sudo apt update
+  188  sudo apt install qemu
+  189  qemu-system-arm 
+  190  ls
+  191  mkdir xenial
+  192  wget http://ports.ubuntu.com/ubuntu-ports/dists/xenial-updates/main/installer-armhf/current/images/hwe-generic/netboot/initrd.gz
+  193  ls
+  194  mv initrd.gz ./xenial
+  195  ls
+  196  cd xenial
+  197  ls
+  198  wget http://ports.ubuntu.com/ubuntu-ports/dists/xenial-updates/main/installer-armhf/current/images/hwe-generic/netboot/vmlinuz
+  199  qemu-img create -f qcow2 ubuntu.img 2G
+  200  ls
+  201  qemu-system-arm -kernel vmlinuz -initrd initrd.gz -append "root=/dev/ram" -no-reboot -nographic -m 1024 -M virt -serial stdio -net nic -hda ubuntu.img
+  202  qemu-system-arm -kernel vmlinuz -initrd initrd.gz -append "root=/dev/ram" -no-reboot -nographic -m 1024 -M virt -net nic -hda ubuntu.img
+  203  clera
+  204  clear
+  205  qemu-system-arm -kernel vmlinuz -initrd initrd.gz -append "root=/dev/ram" -no-reboot -nographic -m 1024 -M virt -net nic -net tap,ifname=tap0,script=no,downscript=no -hda ubuntu.img
+  206  pwd
+  207  ls /
+  208  ls /mnt/
+  209  du h
+  210  du -h
+  211  du -h /
+  212  du -h --max-depth=2 /
+  213  man du
+  214  ps -a
+  215  taskkill 
+  216  top
+  217  htop
+  218  kill -s 9 1641
+  219  ls
+  220  cd xenial/
+  221  ls
+  222  cd ..
+  223  mkdir xenialv2
+  224  cd xenial
+  225  cd ..
+  226  cd xenialv2/
+  227  ls
+  228  wget https://cloud-images.ubuntu.com/releases/16.04/release/ubuntu-16.04-server-cloudimg-armhf.tar.gz
+  229  ls
+  230  tar -xvzf ubuntu-16.04-server-cloudimg-armhf.tar.gz 
+  231  ls
+  232  nano README 
+  233  ls -1
+  234  ls -l
+  235  ls -h
+  236  man ls
+  237  ls -l -h
+  238  cd ..
+  239  cd ~
+  240  ls
+  241  cd /mnt
+  242  ls
+  243  cd c
+  244  ls
+  245  cd Users/
+  246  cd Enrique\ Torres/
+  247  ls
+  248  cd Documents
+  249  ls
+  250  cp ~/xenialv2/xenial-server-cloudimg-armhf.img .
+  251  ls
+  252  cd ~
+  253  cd xenialv2/
+  254  ls
+  255  cd /mnt/c/Users/Enrique\ Torres/Documents
+  256  cp ~/xenialv2/xenial-server-cloudimg-armhf.img .
+  257  cd ~/xenialv2
+  258  ls
+  259  mkdir img
+  260  mount xenial-server-cloudimg-armhf.img -o loop ./img/
+  261  sudo mount xenial-server-cloudimg-armhf.img -o loop ./img/
+  262  sudo mount -o loop xenial-server-cloudimg-armhf.img ./img/
+  263  sudo mount -o loop xenial-server-cloudimg-armhf.img ./img
+  264  ls
+  265  rm img
+  266  rm -f img
+  267  rm -r img
+  268  ls
+  269  mkdir image
+  270  sudo mount -o loop xenial-server-cloudimg-armhf.img ./image/
+  271  gc
+  272  gcc
+  273  sudo apt install gcc
+  274  gcc
+  275  gcc --version
+  276  ls
+  277  mkdir ICOM6025
+  278  cd ICOM6025/
+  279  nano
+  280  ls
+  281  gcc -fopenmp example.c 
+  282  nano
+  283  nano example.c 
+  284  gcc -fopenmp example.c 
+  285  nano example.c 
+  286  gcc -fopenmp example.c 
+  287  ls
+  288  ./a.out 
+  289  cd /etc/ssh
+  290  ls
+  291  nano sshd_config 
+  292  cd ~
+  293  cd
+  294  ls
+  295  cd Ic
+  296  cd ICOM6025/
+  297  ls
+  298  nano sections.c
+  299  gcc -fopenmp sections.c 
+  300  ./a.out
+  301  nano main.c
+  302  ls
+  303  git
+  304  cd /mnt/c/Users/Enrique\ Torres/git/Java-API/
+  305  ls
+  306  nano .gitignore
+  307  git status
+  308  git add .gitignore 
+  309  git status
+  310  man git
+  311  git commit
+  312  git config ==global user.email "enrique.torres2@upr.edu
+  313  "
+  314  git config --global user.email "enrique.torres2@upr.edu"
+  315  git config --global user.name "Enrique Torres"
+  316  git commit
+  317  git push
+  318  git status
+  319  cd ..
+  320  ls
+  321  rm -r Java-API/
+  322  sudo rm -r Java-API/
+  323  sudo rm -rf Java-API/
+  324  ls
+  325  ls Java-API/
+  326  ls -a Java-API/
+  327  ls -a Java-API/.git/
+  328  ls -a Java-API/.git/objects/
+  329  ls -a Java-API/.git/objects/pack/
+  330  rm Java-API/.git/objects/pack/pack-6aad6ef44643879696af38724f97ba8a5325ab42.pack 
+  331  sudo rm Java-API/.git/objects/pack/pack-6aad6ef44643879696af38724f97ba8a5325ab42.pack 
+  332  ls -a Java-API/.git/objects/pack/
+  333  ls
+  334  mkdir JavaAPI
+  335  ls
+  336  cd JavaAPI\
+  337  ls
+  338  git init
+  339  nano .gitignore
+  340  ls
+  341  ls -a
+  342  git status
+  343  echo "# JavaAPI" >> README.md
+  344  ls
+  345  git add -a
+  346  git add -all
+  347  git add --all
+  348  git status
+  349  git commit -m "Needed to create a new repo for gitignore to work"
+  350  git remote add origin https://github.com/enriquetorres2/JavaAPI.git
+  351  git push -u origin master
+  352  git status
+  353  git commit -a -m "Modified gitignore"
+  354  git push -u origin master
+  355  cd ~
+  356  ls
+  357  cd ICOM6025/
+  358  ls
+  359  cd ..
+  360  cd /mnt/c/Users/Enrique\ Torres/Documents/
+  361  ls
+  362  cd ICOM6025/
+  363  ls
+  364  cd Asig1/
+  365  ls
+  366  sudo nano .ssh/known_hosts
+  367  sudo nano ~/.ssh/known_hosts
+  368  eval `ssh-agent -s`
+  369  ssh-add ~/ejtrchameleonkey.pem
+  370  ssh cc@192.5.87.190
+  371  ssh cc#192.5.87.190
+  372  ssh cc@192.5.87.190
+  373  scp package.tar cc@192.5.87.190:/home/cc
+  374  ssh cc@192.5.87.190
+  375  scp cc@192.5.87.190:/home/cc/packageResultDocker.tar.gz ./
+  376  ls
+  377  git
+  378  git remote -h
+  379  git remote -v
+  380  cd /mnt/c/
+  381  ls
+  382  cd Users/
+  383  E
+  384  cd Enrique\ Torres/\
+  385  cd git
+  386  ls
+  387  ls
+  388  cd ..
+  389  ld
+  390  l
+  391  cd eclipse-workspace/
+  392  ls
+  393  cd edu.uprm.enrique.javaserver/
+  394  ls
+  395  ls -a
+  396  clear
+  397  git remote -v
+  398  git remote add -h
+  399  git add
+  400  git status
+  401  git add -a
+  402  git add -A
+  403  git status
+  404  ?git
+  405  man git
+  406  git -h
+  407  git --h
+  408  git -help
+  409  git --help
+  410  git reset
+  411  git add .
+  412  git status
+  413  git remote add https://github.com/enriquetorres2/stupidivanwithlove.git
+  414  git remote add other https://github.com/enriquetorres2/stupidivanwithlove.git
+  415  git remote -v
+  416  git status
+  417  git commit 
+  418  git commit -h
+  419  git commit -m "test"
+  420  git push other master
+  421  git checkout master
+  422  git merge -h
+  423  git merge
+  424  git branch -v
+  425  git merge AsyncResponse master 
+  426  nano README.md 
+  427  git checkout AsyncResponse 
+  428  git checkout mast
+  429  git checkout master 
+  430  git commit -m "lol"
+  431  git commit -a -m "lol"
+  432  git checkout AsyncResponse 
+  433  nano README.md 
+  434  git commit -a -m "lol2"
+  435  git checkout master 
+  436  git merge AsyncResponse master 
+  437  git stage
+  438  ls
+  439  git stage -h
+  440  git status
+  441  gid add README.md 
+  442  git add README.md 
+  443  git --help
+  444  git rm -h
+  445  git reset
+  446  nano README.md 
+  447  git add .
+  448  git commit -m "Resolved Confict" 
+  449  git push
+  450  git add -h
+  451  git compare
+  452  git --help
+  453  git diff -h
+  454  postgres
+  455  psql
+  456  apt install sdl2
+  457  sudo -i
+  458  help
+  459  exit
+  460  cat /etc/ssh/sshd_conf
+  461  pwd
+  462  ls /etc/
+  463  ls /etc/ssh/
+  464  ls /etc/ssh/sshd_config 
+  465  cat /etc/ssh/sshd_config 
+  466  ssh localhost
+  467  apt install openssh-server
+  468  apt update
+  469  apt list --upgradable
+  470  systemx
+  471  apt remove --purge openssh-server
+  472  apt install openssh-server
+  473  cat /etc/ssh/sshd_config 
+  474  nano /etc/ssh/sshd_config 
+  475  service ssh restart
+  476  ssh localhost
+  477  passwd
+  478  ssh localhost
+  479  ssh enriquetorres@localhost
+  480  su -i
+  481  sudo bash
+  482  ls
+  483  exit
+  484  git
+  485  ls
+  486  mkdir Quique
+  487  cd Quique/
+  488  ls
+  489  git clone https://github.com/luis1van/Quique.git
+  490  ls -a
+  491  cd Quique/
+  492  ls
+  493  ls -a
+  494  nano README.md 
+  495  git add .
+  496  git status
+  497  git commit -m "Modified README"
+  498  git push
+  499  git config --help
+  500  lol
+  501  say
+  502  nano README.md 
+  503  git commit -a -m "lol"
+  504  git push
+  505  git fetch
+  506  git diff master origin/master
+  507  git status
+  508  git pull
+  509  git status
+  510  nano README.md 
+  511  git status
+  512  git commit -a
+  513  git push
+  514  git pull master
+  515  git pull origin/master
+  516  git pull origin master
+  517  git checkout facil
+  518  git pull
+  519  git branch list
+  520  git branch -list
+  521  git branch --list
+  522  git checkout facil
+  523  git branch --list
+  524  git branch --help
+  525  git branch -d list
+  526  git tag --list
+  527* 
+  528  git branch -v
+  529  hist
+  530  ls /bash
+  531  su -i
+  532  su -
+  533  history 
+  534  history >> hist.txt
